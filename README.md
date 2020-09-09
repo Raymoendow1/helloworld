@@ -7,10 +7,8 @@
 Install via the bundled [Plugin Manager](https://docs.octoprint.org/en/master/bundledplugins/pluginmanager.html)
 or manually using this URL:
 
-    https://github.com/Raymoendow1/OctoPrint-Helloworld/archive/master.zip
+    pip install -e git+https://github.com/Raymoendow1/OctoPrint-Helloworld/archive/master.zip
 
-**TODO:** Describe how to install your plugin, if more needs to be done than just installing it via pip or through
-the plugin manager.
 
 ## Configuration
 
