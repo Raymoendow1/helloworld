@@ -27,7 +27,7 @@ plugin_author = "Raymond de Hooge"
 plugin_author_email = "Raymond.dehooge@gmail.com"
 
 # The plugin's homepage URL. Can be overwritten within OctoPrint's internal data via __plugin_url__ in the plugin module
-plugin_url = "https://github.com/Raymoendow1/HelloWorldPlugin"
+plugin_url = "https://github.com/Raymoendow1/helloworld"
 
 # The plugin's license. Can be overwritten within OctoPrint's internal data via __plugin_license__ in the plugin module
 plugin_license = "AGPLv3"
@@ -59,7 +59,7 @@ plugin_ignored_packages = []
 # Example:
 #     plugin_requires = ["someDependency==dev"]
 #     additional_setup_parameters = {"dependency_links": ["https://github.com/someUser/someRepo/archive/master.zip#egg=someDependency-dev"]}
-additional_setup_parameters = {"dependency_links": ["https://github.com/Raymoendow1/HelloWorldPlugin@master#egg=helloworld"]}
+additional_setup_parameters = {"dependency_links": ["https://github.com/Raymoendow1/helloworld@master#egg=helloworld"]}
 
 ########################################################################################################################
 
