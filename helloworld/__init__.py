@@ -17,7 +17,7 @@ class HelloworldPlugin(	octoprint.plugin.StartupPlugin,
                 		octoprint.plugin.TemplatePlugin):
 	
 	def on_after_startup(self):
-		self._logger.info("Hello World!")
+		self._logger.info("Hello World! (more: %s)" % self._settings.get(["url"]))
 
 	##~~ SettingsPlugin mixin
 
