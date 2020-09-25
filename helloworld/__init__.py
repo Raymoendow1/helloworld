@@ -1,14 +1,6 @@
 # coding=utf-8
 from __future__ import absolute_import, unicode_literals
 
-### (Don't forget to remove me)
-# This is a basic skeleton for your plugin's __init__.py. You probably want to adjust the class name of your plugin
-# as well as the plugin mixins it's subclassing from. This is really just a basic skeleton to get you started,
-# defining your plugin as a template plugin, settings and asset plugin. Feel free to add or remove mixins
-# as necessary.
-#
-# Take a look at the documentation on what other plugin mixins are available.
-
 import octoprint.plugin
 
 class HelloworldPlugin(	octoprint.plugin.StartupPlugin,
@@ -75,7 +67,7 @@ __plugin_name__ = "helloworld"
 # compatibility flags according to what Python versions your plugin supports!
 #__plugin_pythoncompat__ = ">=2.7,<3" # only python 2
 #__plugin_pythoncompat__ = ">=3,<4" # only python 3
-#__plugin_pythoncompat__ = ">=2.7,<4" # python 2 and 3
+__plugin_pythoncompat__ = ">=2.7,<4" # python 2 and 3
 
 def __plugin_load__():
 	global __plugin_implementation__
